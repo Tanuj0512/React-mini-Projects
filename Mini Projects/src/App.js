@@ -7,7 +7,8 @@ import QRCode from "./Components//QrCode/index";
 import LightDark from "./Components/Light-Dark";
 import ScrollIndicator from "./Components/Scroll Indicator";
 import TextSpeech from "./Components/Speech-Text/indes";
-
+import Start from "./Components/Rating/app";
+import Erate from "./Components/E-rating/app";
 function App() {
   return (
   
@@ -20,8 +21,10 @@ function App() {
       {/* <QRCode/> */}
       {/* <LightDark/> */}
       {/* <ScrollIndicator url = {`https://dummyjson.com/products?limit=100`} /> */}
-   
+   {/* <Erate/> */}
    {/* <TextSpeech/> */}
+   <Start/>
+
     </div>
 
     
